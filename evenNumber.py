@@ -12,7 +12,7 @@ def hello():
     
     a = []
 
-    for e in range(1,30,1):
+    for e in range(1,30):
         if (e%2) == 0:
             a.append(e)
     return a
